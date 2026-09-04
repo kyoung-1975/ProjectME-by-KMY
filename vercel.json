@@ -1,6 +1,7 @@
 {
   "rewrites": [
-    { "source": "/links", "destination": "/links.html" }
+    { "source": "/links", "destination": "/links.html" },
+    { "source": "/gems-soon", "destination": "/gems-soon.html" }
   ],
   "redirects": [
     { "source": "/linktree", "destination": "/links", "permanent": false }
