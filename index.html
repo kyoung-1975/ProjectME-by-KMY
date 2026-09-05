@@ -616,7 +616,8 @@ body.ha-crossing > *:not(#ha-veil):not(#ha-dust){
 <script>
 (function(){
   var TARGET = 'https://empowerherinstitute.org/hope-anxiety/index.html';
-  var links  = document.querySelectorAll('a[href="' + TARGET + '"]');
+  /* only the Hope Anxiety row in Choose Your Next Step crosses the threshold */
+  var links  = document.querySelectorAll('a[data-link="heal-hope-anxiety"]');
   if(!links.length) return;
 
   var veil   = document.getElementById('ha-veil');
